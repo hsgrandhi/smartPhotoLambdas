@@ -2,7 +2,6 @@ import json
 import boto3
 from requests_aws4auth import AWS4Auth
 import requests
-from elasticsearch import Elasticsearch, RequestsHttpConnection
 import time
 
 # To test this function - upload any .jpeg or .png image into the photostoragebucket1 bucket in s3, which triggers the lambda function to be executed
